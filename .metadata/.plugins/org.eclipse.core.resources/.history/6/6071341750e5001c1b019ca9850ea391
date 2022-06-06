@@ -1,0 +1,18 @@
+package udemyInterview.algo;
+
+public class Factorial {
+	
+	public static void main(String[] args) {
+		
+		int ans = recursive(3, 1);
+		System.out.println(ans);
+	}
+	
+	public static int recursive(int number,int result) {
+		if(number == 1) {
+			return result;
+		}
+		result = result*(number--);
+		return recursive(number,result);
+	}
+}

@@ -1,0 +1,9 @@
+package java_dataStructure;
+
+public class Quick {
+
+	
+	public static void main(String[] args) {
+		System.out.println("배열을 나눕니다");
+	}
+}

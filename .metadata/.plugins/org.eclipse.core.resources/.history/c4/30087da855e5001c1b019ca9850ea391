@@ -1,0 +1,22 @@
+package udemyInterview.algo;
+
+public class Fibo {
+	public static void main(String[] args) {
+		
+		System.out.println(recur(3));
+	}
+	
+	public static void iter(int n) {
+		int result = 0;
+		for(int i=0; i<n; i++) {
+			
+		}
+	}
+	
+	public static int recur(int n) {
+		if(n<2) {
+			return n;
+		}
+		return recur(n-1)+recur(n-2);
+	}
+}
