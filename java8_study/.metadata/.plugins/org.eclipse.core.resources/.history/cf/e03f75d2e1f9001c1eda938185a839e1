@@ -1,0 +1,6 @@
+package java8.인터페이스변화;
+
+public interface MyInterface {
+
+	void printName();
+}

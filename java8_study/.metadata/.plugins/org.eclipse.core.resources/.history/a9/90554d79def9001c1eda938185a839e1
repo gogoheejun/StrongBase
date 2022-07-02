@@ -1,0 +1,16 @@
+package java8;
+
+import java.util.function.UnaryOperator;
+
+public class MethodReference {
+
+	public static void main(String[] args) {
+		//스태틱 메서드 참조
+		UnaryOperator<String> hi = Greeting::hi;
+		
+		//인스턴스 메서드 참조
+		Greeting greeting = new Greeting();
+		UnaryOperator<String> hi2 = greeting::hello;
+	}
+
+}
